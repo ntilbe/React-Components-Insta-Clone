@@ -1,17 +1,29 @@
-import React from "react";
-import Post from "./Post";
-import "./Posts.css";
+// You will add code to this file
+import React from 'react';
+import Comments from '../Comments/Comments';
+import LikeSection from './LikeSection';
+import PostHeader from './PostHeader';
 
-const Posts = (props) => {
-  // Make sure the parent of Posts is passing the right props!
-  const { likePost, posts } = props;
+const Post = props => {
+  const { post, likePost } = props
 
   return (
-    <div className="posts-container-wrapper">
-      {/* map through the posts here to return a Post component */}
-      {/* Check the implementation of Post to see what props it requires! */}
+    <div className='post-border'>
+      <PostHeader
+        username={post.username}
+        thumbnailUrl={post.thumbnailUrl}
+      />
+      <div className='post-image-wrapper'>
+        <img
+          alt='post thumbnail'
+          className='post-image'
+          src={post.imageUrl}
+        />
+      </div>
+      <LikeSection id={post.id} likeCount={post.likes} likePost={() => likePost(post.id)} />
+      <Comments comments={props.post.comments} />
     </div>
   );
 };
 
-export default Posts;
+export default Post;
