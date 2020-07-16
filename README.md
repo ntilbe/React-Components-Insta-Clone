@@ -25,11 +25,11 @@ This project was put together using create-react-app (CRA). You will not need to
 
 ### Task 2a: MVP
 
-- [ ]  This app can be broken down to two main sections that you'll need to implement for this project: the Search Bar and the Posts.
-- [ ]  To complete this project there will be a single instance of the Search Bar being rendered at the top of the page, as well as a Posts container that renders an individual Post for every object inside the `dummy-data.js` array.
-- [ ]  Use what you learned yesterday to add and update state for the posts.
-- [ ]  You will implement a callback to increase the "likes" count on posts, and hand it down through props into deeply nested components.
-- [ ]  Look through the code before you start. There are a lot of files. Not all of them need code added to them. Start in the App.js file and read the instructions there.
+- [X]  This app can be broken down to two main sections that you'll need to implement for this project: the Search Bar and the Posts.
+- [X]  To complete this project there will be a single instance of the Search Bar being rendered at the top of the page, as well as a Posts container that renders an individual Post for every object inside the `dummy-data.js` array.
+- [X]  Use what you learned yesterday to add and update state for the posts.
+- [X]  You will implement a callback to increase the "likes" count on posts, and hand it down through props into deeply nested components.
+- [X]  Look through the code before you start. There are a lot of files. Not all of them need code added to them. Start in the App.js file and read the instructions there.
 
 ---
 
@@ -43,11 +43,11 @@ The completion of these questions is mandatory for MVP. However, passing the qui
 
 ### Task 3: Stretch Goals
 
-- [ ]  Create more dummy data in the dummy-data.js file and add search functionality to the search bar. One way to do this is with a filter method.
+- [X]  Create more dummy data in the dummy-data.js file and add search functionality to the search bar. One way to do this is with a filter method.
 - [ ]  Implement the ability to add comments to a post using an input.
 - [ ]  Finish styling all of the application and get your instagram clone to closely resemble the given design spec.
 
 ## Submission Format
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's Repo). **Please don't merge your own pull request**
-- [ ] Fill out your module retrospective form [here](https://forms.lambdaschool.com/module-retrospective) with a link to your TL
+- [X] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's Repo). **Please don't merge your own pull request**
+- [X] Fill out your module retrospective form [here](https://forms.lambdaschool.com/module-retrospective) with a link to your TL
